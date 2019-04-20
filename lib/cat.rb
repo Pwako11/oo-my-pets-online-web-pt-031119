@@ -4,7 +4,7 @@ class Cat
   attr_accessor :name, :mmod
 
   def initialize (name)
-  @name = name.freeze
+  @name = name
   @mood = "nervous"
   end
   
